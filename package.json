@@ -2,10 +2,10 @@
   "name": "create-fullstack-webpack-app",
   "version": "1.0.0",
   "description": "An app that makes building webpacks for fullstack applications simple.",
-  "main": "scripts/script.js",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node scripts/script.js"
+    "start": "node script.js"
   },
   "repository": {
     "type": "git",
