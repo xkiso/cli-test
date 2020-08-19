@@ -139,7 +139,7 @@ inquirer
 
     console.log('done')
 
-    exec('echo hello world', (err, stdout, stderr) => {
+    exec('npm init', (err, stdout, stderr) => {
       if (err) {
         //some err occurred
         console.error(err)

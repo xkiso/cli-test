@@ -1,6 +1,6 @@
 {
   "name": "@xkiso/cli-test",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "test",
   "main": "script.js",
   "bin": "script.js",
