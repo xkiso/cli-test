@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const inquirer = require('inquirer');
 const { exec } = require('child_process');
 const fs = require('fs');
