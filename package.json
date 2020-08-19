@@ -1,7 +1,7 @@
 {
-  "name": "create-fullstack-webpack-app",
+  "name": "cli-test",
   "version": "1.0.0",
-  "description": "An app that makes building webpacks for fullstack applications simple.",
+  "description": "test",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xkiso/create-fullstack-webpack-app.git"
+    "url": "git+https://github.com/xkiso/cli-test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xkiso/create-fullstack-webpack-app/issues"
+    "url": "https://github.com/xkiso/cli-test/issues"
   },
-  "homepage": "https://github.com/xkiso/create-fullstack-webpack-app#readme",
+  "homepage": "https://github.com/xkiso/cli-test#readme",
   "dependencies": {
     "inquirer": "^7.3.3"
   }
