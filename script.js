@@ -11,7 +11,7 @@ inquirer
     {
       type: 'list',
       name: 'frontend',
-      message: '1. Are you using a Frontend framework?',
+      message: '1. Are you using a Frontend framework? test',
       choices: [
         'Not now',
         'React',
@@ -138,6 +138,17 @@ inquirer
     });
 
     console.log('done')
+
+    exec('npm init', (err, stdout, stderr) => {
+      if (err) {
+        //some err occurred
+        console.error(err)
+      } else {
+       // the *entire* stdout and stderr (buffered)
+       console.log(`stdout: ${stdout}`);
+       console.log(`stderr: ${stderr}`);
+      }
+    });
 
     exec('npm init', (err, stdout, stderr) => {
       if (err) {
